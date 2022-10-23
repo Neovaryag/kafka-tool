@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.neovaryag.kafkatool.KafkaToolApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.481 s <<< FAILURE! - in com.neovaryag.kafkatool.KafkaToolApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JFrame' defined in file [/Users/mihailsimonov/Downloads/kafka-tool/target/classes/com/neovaryag/kafkatool/ui/JFrame.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.neovaryag.kafkatool.ui.JFrame]: Constructor threw exception; nested exception is java.awt.HeadlessException
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.neovaryag.kafkatool.ui.JFrame]: Constructor threw exception; nested exception is java.awt.HeadlessException
+Caused by: java.awt.HeadlessException
+
